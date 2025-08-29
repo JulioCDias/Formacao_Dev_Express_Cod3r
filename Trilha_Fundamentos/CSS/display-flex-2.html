@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Display Flex 2</title>
+    <style>
+        .flexbox {
+            display: flex;
+            justify-content: flex-end; /* A Propriedade justify-content define
+                             como os itens flexíveis são distribuídos na linha
+                             Ou seja na Horizontal */
+            align-items: center; /* A Propriedade align-items define como os itens flexíveis são distribuídos na coluna
+                             Ou seja na Vertical */
+        }
+
+       .externo {
+            height: 400px;
+            background-color: crimson;
+            border: 5px solid black;
+       }
+       .interno {
+            height: 50px;
+            width: 50px;
+            background-color: deepskyblue;
+            border: 5px solid black;
+            border-radius: 50%;
+         }
+        
+        
+    </style>
+</head>
+<body>
+    <h1>Flexbox</h1>
+    <span>Flex Container</span>
+    <div class="externo flexbox">
+        <div class="interno"></div>
+        <div class="interno"></div>
+        <div class="interno"></div>
+    </div>
+    
+    
+
+   <a href="./exercicios.html">Voltar</a>
+</body>
+</html>

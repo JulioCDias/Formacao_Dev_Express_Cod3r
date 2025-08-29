@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Desafio Css</title>
+    <style>
+        html {
+            background-color: black;
+            color: white;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+      body {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        row-gap: 30px;
+      }
+      .container {
+        width: 300px;
+        height: 500px;
+        display: flex;
+        flex-direction: column;
+        background-color: #222;
+        border-radius: 10px;
+        overflow: hidden;
+      }
+      .conteudo {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        height: 100%;
+        padding: 15px;
+      }
+      .conteudo > h3 {
+        margin: 0;
+        font-size: 18px;
+        font-weight: 400;
+
+      }
+      .conteudo > p {
+        margin: 0;
+        font-size: 18px;
+        font-weight: 400;
+        color: #ccc;
+
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <h1>Desafio Css</h1>
+    </header>
+    <main>
+      <div class="container">
+        <img src="./img/pc.jpg" alt="Imagem Computador">
+        <div class="conteudo">
+          <h3>Kit Antenado 2024</h3>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum
+            est, dicta ratione dolorum illo dolore, in ducimus magni laudantium
+            natus iure nobis beatae, assumenda accusamus. Corporis maxime
+            labore, officia repellat esse ullam quas vitae nulla optio harum ea
+            molestiae.
+            </p>
+          <div>
+            <span>⭐⭐⭐⭐⭐</span>
+          </div>
+        </div>
+      </div>
+    </main>
+    <footer>
+      <a href="./exercicios.html">Voltar</a>
+    </footer>
+  </body>
+</html>

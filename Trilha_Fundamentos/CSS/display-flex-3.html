@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Display Flex 3</title>
+    <style>
+    .centralizar {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+      .flexbox {
+        display: flex;
+        flex-direction: column; /* A Propriedade flex-direction define a direção na qual os itens flexíveis são colocados no contaîner flexível
+                             Ou seja na Horizontal ou Vertical */
+      }
+
+      .externo {
+        height: 400px;
+        background-color: crimson;
+        border: 5px solid black;
+      }
+      .interno {
+        height: 50px;
+        width: 50px;
+        background-color: deepskyblue;
+        border: 5px solid black;
+        border-radius: 50%;
+      }
+
+      .cor1 {
+        background-color: yellow;
+      }
+        .cor2 {
+            background-color: fuchsia;
+        }
+    </style>
+  </head>
+  <body>
+    <h1>Flexbox</h1>
+    <span>Flex Container</span>
+    <div class="centralizar externo flexbox">
+      <div class="centralizar interno cor1">1</div>
+      <div class="centralizar interno cor2">2</div>
+      <div class="centralizar interno">3</div>
+    </div>
+
+    <a href="./exercicios.html">Voltar</a>
+  </body>
+</html>

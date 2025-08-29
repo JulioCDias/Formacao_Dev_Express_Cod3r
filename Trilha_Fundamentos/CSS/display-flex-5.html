@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Display Flex 5</title>
+    <style>
+      .centralizar {
+        justify-content: flex-start;
+        align-items: flex-start;
+      }
+
+      .flexbox {
+        display: flex;
+        gap: 5px;
+      }
+
+      .externo {
+        height: 400px;
+        background-color: rgb(68, 24, 32);
+        border: 5px solid black;
+      }
+      .interno {
+        height: 50px;
+        background-color: deepskyblue;
+        border: 1px solid black;
+      }
+
+      .cor1 {
+        width: 20px;
+        background-color: yellow;
+      }
+      .cor2 {
+        background-color: fuchsia;
+        flex-grow: 1; /*
+                             A Propriedade flex-grow define o 
+                             crescimento dos itens flexíveis em relação ao espaço restante*/
+      }
+
+      .cor3 {
+        width: 20px;
+        background-color: lime;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Flexbox</h1>
+    <span>Flex Container</span>
+    <div class="centralizar externo flexbox">
+      <div class="centralizar interno cor1">1</div>
+      <div class="centralizar interno cor2">2</div>
+      <div class="centralizar interno cor3">3</div>
+    </div>
+
+    <a href="./exercicios.html">Voltar</a>
+  </body>
+</html>
